@@ -1,0 +1,119 @@
+/* reset CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+html{
+    font-size: 15px;
+}
+/* reset CSS */
+body{
+    background-color: hsl(233, 47%, 7%);
+    width: 100%;
+    height: auto;
+}
+
+.attribution{
+    color: white;
+    font-weight: 400;
+}
+
+#card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: hsl(244, 38%, 16%);
+    margin: 130px 30px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.filter{
+background-color: hsl(277, 64%, 61%);
+border-radius: 0px 10px 10px 0;
+height: 446px;
+width: 540px;
+}
+
+img{
+    float: right;
+    opacity: 0.4;
+    height: 100%;
+    width: auto;
+}
+
+
+#content{
+   margin: 70px 84px 55px 60px;
+}
+
+#tittle {
+    color: hsl(0, 0%, 100%);
+    font-family: 'Inter',sans-serif;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+#tittle span {
+    color: hsl(277, 64%, 61%);
+    
+}
+
+#paragraph p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca',sans-serif;
+    font-weight: 400;
+    margin-bottom: 65px;
+}
+
+#follow{
+    display: flex;
+    flex-direction: row;
+}
+
+#follow h2{
+color: hsl(0, 0%, 100%);
+font-family: 'Inter',sans-serif;
+font-weight: 700;
+}
+
+#follow p{
+    color: hsla(0, 0%, 100%, 0.6);
+    font-family: 'Lexend Deca',sans-serif;
+    text-transform: uppercase;
+    margin-right: 50px;
+}
+
+
+/* mobile */
+@media only screen and (min-device-width : 375px) and (max-device-width : 540px) {
+    #card{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #content{
+        text-align: center;
+        margin: 65px 55px 55px 55px;
+    }
+    
+    #follow{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #follow p{
+        margin-top: 15px;
+        margin-bottom: 50px;
+        margin-right: 0px;
+    }
+    .attribution{
+        margin-bottom: 15px;
+    }
+    }
+/* mobile */
